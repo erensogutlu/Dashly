@@ -16,7 +16,7 @@ Bu proje, belirli verileri ([Veri Türü/Amacı, örn: Satış Performansı, Kul
 
 * Geliştirici : Eren Söğütlü
 
-LİNK : erensogutlu-dashly.netlify.app
+LİNK : https://erensogutlu-dashly.netlify.app/
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -38,4 +38,4 @@ This project is an interactive web-based dashboard application designed to visua
 
 * Developer: Eren Söğütlü
 
-LINK: erensogutlu-dashly.netlify.app
+LINK: https://erensogutlu-dashly.netlify.app/
