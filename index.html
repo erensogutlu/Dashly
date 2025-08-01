@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashly</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="icon" href="icon.svg" />
+	</head>
+	<body>
+		<div id="yukleyici">
+			<div class="yukleyici-animasyon"></div>
+		</div>
+
+		<header class="ust-cubuk">
+			<div class="logo">Dashly</div>
+			<button class="hamburger-menu" id="hamburgerMenu">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="kullanici-menu">
+				<span>Merhaba, Yönetici!</span>
+				<button class="profil-dugme">Profil</button>
+			</div>
+		</header>
+
+		<div class="ana-kapsayici">
+			<aside class="yan-menu" id="yanMenu">
+				<ul>
+					<li>
+						<a href="#anasayfa" class="nav-link aktif" data-sayfa="anasayfa"
+							><i class="fas fa-home"></i> Ana Sayfa</a
+						>
+					</li>
+					<li>
+						<a href="#analiz" class="nav-link" data-sayfa="analiz"
+							><i class="fas fa-chart-line"></i> Analiz</a
+						>
+					</li>
+					<li>
+						<a href="#raporlar" class="nav-link" data-sayfa="raporlar"
+							><i class="fas fa-file-alt"></i> Raporlar</a
+						>
+					</li>
+					<li>
+						<a href="#ayarlar" class="nav-link" data-sayfa="ayarlar"
+							><i class="fas fa-cog"></i> Ayarlar</a
+						>
+					</li>
+				</ul>
+			</aside>
+
+			<main class="ana-icerik" id="anaIcerik">
+				<!-- sayfa içeriği js ile yüklenecek -->
+			</main>
+		</div>
+
+		<footer class="alt-cubuk">
+			<p>&copy; 2025 Dashly. Tüm Hakları Saklıdır.</p>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
